@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 
 import {Surface} from 'gl-react-dom'
-import {Sharpen} from '../src/'
+import {Temperature} from '../src/'
 const {Image: GLImage} = require('gl-react-image');
 
 export default class App extends Component {
@@ -10,14 +10,14 @@ export default class App extends Component {
     super(props);
   
     this.state = {
-      sharpen: 0,
+      temperature: 7000,
     };
   }
   render() {
     return (
       <div className="wrapper">
         <Surface width={450} height={300}>
-          <Sharpen factor={this.state.sharpen} width={450} height={300}>
+          <Temperature temp={this.state.temperature}>
             <GLImage
               source={{
                 uri: "https://unsplash.it/450/350?image=301", 
@@ -26,15 +26,13 @@ export default class App extends Component {
               }}
               resizeMode="cover"
             />
-          </Sharpen>
+          </Temperature>
         </Surface>
         <input type="range"
-          min={0}
-          max={5}
-          step={0.1}
-          value={this.state.sharpen}
-          onChange={val => console.log(val)}
-          onChange={e => this.setState({sharpen: parseFloat(e.target.value)})}
+          min={1000}
+          max={20000}
+          value={this.state.temperature}
+          onChange={e => this.setState({temperature: parseFloat(e.target.value)})}
         />
       </div>
     );

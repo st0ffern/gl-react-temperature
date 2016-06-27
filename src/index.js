@@ -1,3 +1,3 @@
 module.exports = {
-  Sharpen: require("./Sharpen")
+  Temperature: require("./Temperature")
 };

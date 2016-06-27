@@ -1,7 +1,7 @@
 {
-  "name": "gl-react-sharpen",
+  "name": "gl-react-temperature",
   "version": "1.0.0",
-  "description": "Universal gl-react filter with sharpen effect",
+  "description": "Universal gl-react filter with temperature effect",
   "main": "lib/index.js",
   "scripts": {
     "compile": "rimraf lib/ && babel --presets es2015,stage-1,react --source-maps -d lib src",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stoffern/gl-react-sepia.git"
+    "url": "git+https://github.com/stoffern/gl-react-temperature.git"
   },
   "author": "Kristoffer Klevenberg",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stoffern/gl-react-sepia/issues"
+    "url": "https://github.com/stoffern/gl-react-temperature/issues"
   },
-  "homepage": "https://github.com/stoffern/gl-react-sepia#readme",
+  "homepage": "https://github.com/stoffern/gl-react-temperature#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.4.5",

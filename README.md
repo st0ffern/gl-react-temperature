@@ -1,5 +1,7 @@
 # gl-react-temperature ![](https://img.shields.io/npm/v/gl-react-temperature.svg) ![](https://img.shields.io/badge/gl--react->= 2.1-05F561.svg) ![](https://img.shields.io/badge/gl--react-dom%20%7C%20native-f90.svg)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stoffern/gl-react-temperature.svg)](https://greenkeeper.io/)
+
 ## Props
 
 - `children` **(required)**: the content to negate.

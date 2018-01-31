@@ -1,3 +1,2 @@
-module.exports = {
-  Temperature: require("./Temperature")
-};
+// @flow
+export {default as Temperature} from "./Temperature";

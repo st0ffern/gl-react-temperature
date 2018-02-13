@@ -1,4 +1,4 @@
-# gl-react-temperature ![](https://img.shields.io/npm/v/gl-react-temperature.svg) ![](https://img.shields.io/badge/gl--react->= 2.1-05F561.svg) ![](https://img.shields.io/badge/gl--react-dom%20%7C%20native-f90.svg)
+# gl-react-temperature ![](https://img.shields.io/npm/v/gl-react-temperature.svg) ![](https://img.shields.io/badge/gl--react->=2.1-05F561.svg) ![](https://img.shields.io/badge/gl--react-dom%20%7C%20native-f90.svg)
 
 ## Props
 
